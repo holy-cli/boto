@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-export BOTOCORE_WHEEL_FILE="https://github.com/holy-cli/boto/raw/master/dist/botocore-1.31.47-py3-none-any.whl"
+export BOTOCORE_WHEEL_FILE="https://cdn.jsdelivr.net/gh/holy-cli/boto/dist/botocore-1.31.47-py3-none-any.whl"
 export BOTO3_VERSION=1.28.47
 
 echo "Building boto3 v$BOTO3_VERSION"
